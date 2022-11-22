@@ -1,13 +1,18 @@
 import React from "react";
 import { Card } from "antd";
 import { FiHeart } from "react-icons/fi";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
     <div>
       <div className="main">
-        <h1 style={{ textAlign: "center", marginTop: "30px" }}>Olx-Card</h1>
-        <div className="container">
+        <Container>
+      <Row>
+        <Col>
+            <div className="olx-images">
           <Card
             style={{
               width: 300,
@@ -17,8 +22,6 @@ function App() {
               top: "20px",
             }}
           >
-            <div className="row">
-              <div className="col-3 olx-images">
                 <img
                   src="https://images.olx.com.pk/thumbnails/302632468-240x180.webp"
                   style={{ objectFit: "cover" }}
@@ -28,10 +31,11 @@ function App() {
                 <FiHeart className="heart" />
                 <h1>Rs 10,500</h1>
                 <p>DHA Phase 2,Karachi- 1 week ago</p>
-              </div>
-            </div>
           </Card>
         </div>
+        </Col>
+      </Row>
+    </Container>
       </div>
     </div>
   );
