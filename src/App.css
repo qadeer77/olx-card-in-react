@@ -1,8 +1,8 @@
-body{
+body {
   background-color: whitesmoke;
 }
 
-.olx-images img{
+.olx-images img {
   width: 293px;
   position: relative;
   top: -23px;
@@ -10,20 +10,26 @@ body{
   border-radius: 10px;
 }
 
-.olx-images h6{
+.olx-images h6 {
   font-size: 15px;
   position: relative;
   left: -10px;
   top: -15px;
 }
-.olx-images h1{
+.olx-images h1 {
   position: relative;
   left: -10px;
   top: -15px;
 }
-.olx-images p{
+.olx-images p {
   position: relative;
   left: -10px;
   top: -15px;
 }
 
+.heart {
+  position: absolute;
+  left: 268px;
+  top: 176px;
+  font-size: 22px;
+}
