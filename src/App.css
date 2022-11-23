@@ -1,27 +1,38 @@
-body {
-  background-color: whitesmoke;
+.site-card-wrapper {
+  position: relative;
+  top: 20px;
 }
 
-.olx-images img {
-  width: 293px;
+.image {
+  width: 322px;
+  height: 185px;
   position: relative;
   top: -23px;
   left: -21px;
   border-radius: 10px;
 }
 
-.olx-images h6 {
+.button {
+  position: absolute;
+  top: 145px;
+  left: 10px;
+  background-color: yellow !important;
+  color: black;
+  height: 30px;
+}
+
+h6 {
   font-size: 15px;
   position: relative;
   left: -10px;
   top: -15px;
 }
-.olx-images h1 {
+h1 {
   position: relative;
   left: -10px;
   top: -15px;
 }
-.olx-images p {
+p {
   position: relative;
   left: -10px;
   top: -15px;
@@ -29,7 +40,7 @@ body {
 
 .heart {
   position: absolute;
-  left: 268px;
-  top: 176px;
+  left: 290px;
+  top: 193px;
   font-size: 22px;
 }
